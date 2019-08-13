@@ -1,0 +1,213 @@
+@font-face {
+    font-family: caviarDreams;
+    src: url("fonts/CaviarDreams/CaviarDreams.ttf");
+}
+@font-face {
+    font-family: caviarDreams_Bold;
+    src: url("fonts/CaviarDreams/CaviarDreams_Bold.ttf");
+}
+@font-face {
+    font-family: caviarDreams_BoldItalic;
+    src: url("fonts/CaviarDreams/CaviarDreams_BoldItalic.ttf");
+}
+@font-face {
+    font-family: caviarDreams_Italic;
+    src: url("fonts/CaviarDreams/CaviarDreams_Italic.ttf");
+}
+@font-face {
+    font-family: leagueSpartan;
+    src: url("fonts/league-spartan/LeagueSpartan-Bold.otf");
+}
+@font-face {
+    font-family: quicksand_Bold;
+    src: url("fonts/quicksand/Quicksand_Bold.otf");
+}
+@font-face {
+    font-family: quicksand_Light;
+    src: url("fonts/quicksand/Quicksand_Light.otf");
+}
+@font-face {
+    font-family: quicksand_LightOblique;
+    src: url("fonts/quicksand/Quicksand_Light_Oblique.otf");
+}
+.nav li{
+    font-family: 'quicksand_Bold';
+    font-size: 20px;
+}
+.nav a{
+    font-family: 'quicksand_Bold';
+    font-size: 20px;
+}
+
+/*Titulo en Carousel de Inicio*/
+.carousel-caption > h1{
+    font-family: 'quicksand_Bold';
+    font-size: 7vh;
+}
+.carousel-caption > p{
+    font-family: 'quicksand_Bold';
+    font-size: 3vh;
+}
+
+/*Parrafo somos una empresa*/
+.somos{
+    font-family: 'quicksand_Bold';
+    font-size: 30px;
+    padding: 20px 30px 20px 50px !important;
+    /*top right bottom left*/
+}
+.destino{
+    font-family: ' quicksand_LightOblique';
+    font-size: 20px;
+    padding: 50px 30px 20px 50px !important;
+}
+/*Titulo imagenes promocionales*/
+.subFigure {
+    font-family: 'quicksand_Light';
+    font-size: 30px;
+    text-align: center;
+}
+.medio h1{
+    font-family: 'leagueSpartan';
+    font-size: 35px;
+    text-align: center;
+    padding: 40px 0px 0px 0px !important;
+}
+
+.eje{
+    padding-top: 80px !important;
+    padding-right: 120px !important;
+}
+
+.eje h1{
+    font-family: 'CaviarDreams_Bold', 'Arial Black';
+    font-size: 30px;
+
+}
+.eje p{
+    font-family: 'leagueSpartan';
+    font-size: 18px;
+}
+.eje a{
+    font-family: 'leagueSpartan';
+    font-size: 20px;
+}
+
+.promo{
+    font-family: 'leagueSpartan';
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.servicios {
+
+    padding-top: 60px;
+}
+.servicios h1{
+    font-family: 'leagueSpartan','Arial';
+    font-size: 40px;
+}
+
+.sobre figcaption{
+    font-family: 'leagueSpartan','Arial';
+    font-size: 25px;
+}
+
+.sobreNosotros{
+    font-family: 'leagueSpartan','Arial';
+    font-size: 25px;
+}
+.sobreNosotros p{
+    font-family: 'leagueSpartan','Arial';
+    font-size: 15px;
+}
+.sobreNosotros h1{
+    font-family: 'leagueSpartan','Arial';
+    font-size: 25px;
+}
+.contactanos{
+    font-family: 'leagueSpartan','Arial';
+}
+.contactanos h1{
+    font-family: 'leagueSpartan','Arial';
+    font-size: 25px;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 40em) {
+    .somos {
+        font-size: 20px;
+    }
+    .destino{
+        font-size: 20px;
+    }
+    .subFigure {
+        font-size: 25px;
+    }
+    .medio h1{
+        font-size: 30px;
+    }
+    .promo{
+        font-size: 40px;
+    }
+
+    .eje h1{
+        font-size: 25px;
+    }
+    .eje p{
+        font-size: 18px;
+    }
+    .eje a{
+        font-size: 20px;
+    }
+    .servicios h1{
+        font-size: 40px;
+    }
+    .sobre figcaption{
+        font-size: 25px;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 62em) {
+    .somos {
+        font-size: 8px;
+    }
+    .destino{
+        font-size: 8px;
+    }
+    .subFigure {
+        font-size: 15px;
+    }
+    .medio{
+        width: 100%;
+        height: 15%;
+        padding-top: -30px;
+        padding-right: -20px;
+    }
+    .medio h1{
+        font-size: 20px;
+    }
+    .promo{
+        font-size: 20px;
+    }
+
+    .eje h1{
+        font-size: 15px;
+    }
+    .eje p{
+        font-size: 10px;
+    }
+    .eje a{
+        font-size: 10px;
+    }
+    .servicios h1{
+        font-size: 25px;
+    }
+    .sobre figcaption{
+        font-size: 20px;
+    }
+}
